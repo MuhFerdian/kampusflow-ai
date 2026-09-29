@@ -1,0 +1,28 @@
+node_modules/
+.next/
+out/
+.env
+.env.*
+!.env.example
+__pycache__/
+.venv/
+.pytest_cache/
+.sites-runtime/
+test-results/
+playwright-report/
+
+# Local Cloud Run deployment configuration
+backend/cloudrun.env.yaml
+*.tsbuildinfo
+
+# Private keys and local credential exports
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+credentials-*.json
+service-account*.json
+secrets.json
+secrets.yaml
+secrets.yml
