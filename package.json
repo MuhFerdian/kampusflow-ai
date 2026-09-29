@@ -1,0 +1,9 @@
+{
+  "name": "kampusflow-ai",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix web run build && node scripts/copy-export.mjs",
+    "dev": "node scripts/dev.mjs",
+    "test": "npm --prefix web test"
+  }
+}

@@ -1,0 +1,12 @@
+**/.env
+**/.env.*
+!.env.example
+.venv/
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+tests/
+*.pyc
+.git/
+*.log
+cloudrun.env.yaml

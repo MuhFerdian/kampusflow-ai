@@ -1,0 +1,16 @@
+{
+  "now": "2026-09-29T12:00:00Z",
+  "cases": [
+    {"name":"completed", "task":{"status":"completed","progress":100}, "score":0},
+    {"name":"overdue", "task":{"due_at":"2026-09-28T12:00:00+00:00"}, "score":81},
+    {"name":"today", "task":{"due_at":"2026-09-29T16:00:00Z"}, "score":80},
+    {"name":"tomorrow", "task":{"due_at":"2026-09-30T16:00:00Z"}, "score":77},
+    {"name":"distant", "task":{"due_at":"2026-10-30T12:00:00Z"}, "score":36},
+    {"name":"no deadline, zero progress", "task":{}, "score":36},
+    {"name":"low importance", "task":{"importance":1}, "score":26},
+    {"name":"high importance", "task":{"importance":5}, "score":46},
+    {"name":"ninety percent", "task":{"progress":90}, "score":23},
+    {"name":"round effort half up", "task":{"estimated_minutes":3}, "score":31},
+    {"name":"maximum", "task":{"importance":5,"difficulty":5,"estimated_minutes":240,"due_at":"2026-09-20T12:00:00Z"}, "score":100}
+  ]
+}
